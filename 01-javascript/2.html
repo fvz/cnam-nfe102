@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Mon second JS</TITLE>
+</head>
+
+<script language="JavaScript1.2">
+function valeurTaux(taux) {
+
+	if (taux != '') {
+		mess = '';
+
+		if (taux > 20) mess = "C'est trop !!";
+		if (taux <= 5) mess = "Là c'est pas assez !!!";
+		if (mess != '') {
+			alert (mess);
+			document.forms[0].taux.value = '';
+			document.forms[0].taux.focus();
+		}
+	}
+
+}
+</script>
+
+<body>
+
+<form action="">
+	<input type="TEXT" size="20" name="taux" onBlur="valeurTaux(value);">
+	<input type="submit" value="OK">
+</form>
+
+</body>
+</html>

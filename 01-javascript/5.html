@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Mon 5ieme JS</TITLE>
+</head>
+
+<script language="JavaScript1.2">
+
+function ctrlForm() {
+	if (isNaN(window.document.Simul.mtfin.value )){
+		alert ("C'est quoi ce montant : [" + document.Simul.mtfin.value + "] ?");
+		document.forms[0].mtfin.focus();
+	}
+}
+
+</script>
+
+<body>
+
+<form action="" name="Simul">
+	<INPUT TYPE="TEXT" NAME="mtfin" placeholder="Saisir Montant">
+	<INPUT TYPE="BUTTON" VALUE="Vérifier" onClick="ctrlForm()">
+</form>
+
+</body>
+</html>

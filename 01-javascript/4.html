@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Mon 4ieme JS</TITLE>
+</head>
+
+<script language="JavaScript1.2">
+
+function calculVR(){
+	mt = document.forms[0].mtfin.value;
+	pourcVr = document.forms[0].pourcVr.value;
+	vr = mt * pourcVr / 100.;
+	document.forms[0].vr.value = vr;
+}
+
+</script>
+
+<body>
+
+<form action="">
+	<INPUT TYPE="TEXT" NAME="mtfin" placeholder="Saisir montant">
+	<INPUT TYPE="TEXT" SIZE="2" NAME="pourcVr" onChange="calculVR();" placeholder="%">
+	<INPUT TYPE="TEXT" NAME="vr" placeholder="Valeur Résultat">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Mon 3ieme JS</TITLE>
+</head>
+
+<script language="JavaScript1.2">
+
+function afficheDoc() {
+	options = "width=300,height=200";
+	fenetre = window.open('','MU',options);
+	fenetre.document.open();
+	manuel = "<BODY bgcolor='white'>"
+		+ "Pour utiliser la calculette "
+		+ " c'est facile."
+		+ " Bonne chance !</BODY>";
+	fenetre.document.write(manuel);
+	fenetre.document.close();
+}
+
+</script>
+
+<body>
+	<a href="" onclick="afficheDoc();">Afficher Doc</a>
+</body>
+
+</html>
