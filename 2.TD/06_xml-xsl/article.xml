@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="article.xsl" type="text/xsl"?>
+
+<articles>
+    <article>
+        <categorie>hi-fi</categorie>
+        <titre>Recepteur BT</titre>
+        <marque>ugreen</marque>
+        <fournisseur>amazon</fournisseur>
+        <prix>15</prix>
+        <livraison unite="jours">3</livraison>
+    </article>
+
+    <article>
+        <categorie>TV/Ecrans</categorie>
+        <titre>TV 55p</titre>
+        <marque>LG</marque>
+        <fournisseur>darty</fournisseur>
+        <prix>500</prix>
+        <livraison unite="jours">4</livraison>
+    </article>
+
+    <article>
+        <categorie>Ordinateurs</categorie>
+        <titre>PC</titre>
+        <marque>Acer</marque>
+        <fournisseur>cdiscount</fournisseur>
+        <prix>200</prix>
+        <livraison unite="heures">12</livraison>
+    </article>
+
+    <article>
+        <categorie>Smartphone</categorie>
+        <titre>Nexus 6P</titre>
+        <marque>Huawei</marque>
+        <fournisseur>Google Play</fournisseur>
+        <prix>600</prix>
+        <livraison unite="jours">1</livraison>
+    </article>
+
+</articles>
