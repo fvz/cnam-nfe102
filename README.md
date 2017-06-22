@@ -1,2 +1,2 @@
 # cnam-nfe102
-Exercices as part of 'NFE102' CNAM unit.
+Cours et Exercices/TD dans le cadre de l'unité NFE102 du CNAM.
